@@ -46,12 +46,15 @@ body {
   padding-bottom: 94px;
 }
 /* этот заголовок нужно сделать невидимым он для семантики */
-.hide__title{
+.visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
 }
 .container{
   width: 1200px;
