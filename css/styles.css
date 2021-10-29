@@ -380,6 +380,7 @@ body {
   flex-basis: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 /* or with :not(:nth-child(3n))
           margin-right: 30px;*/
