@@ -134,6 +134,8 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   margin: 0 auto;
+  max-width: 1600px;
+  height: 600px;
   background-color: var(--mainBg);
   background-image: linear-gradient(
     to right,
@@ -142,12 +144,12 @@ body {
   ), url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1600px 600px; 
+  background-size: cover;
 }
 /* если нужно чтоб фон под картинкой был бесконечно широким */
-.hero--bg {
-  /* background-color: var(--mainBg); */
-}
+/* .hero--bg {
+  background-color: var(--mainBg);
+} */
 .box {
   display: flex;
   flex-direction: column;
