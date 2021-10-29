@@ -192,7 +192,15 @@ body {
 .rows__item:not(:last-child){
   margin-right: 30px;
 }
+.rows__box {
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+}
+.rows__icon {
 
+}
 .rows__title {
   font-weight: 700;
   line-height: 1.14;
