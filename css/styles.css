@@ -45,7 +45,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* этот заголовок нужно сделать невидимым он для семантики */
+/* все что нужно сделать невидимым (для семантики и SEO) */
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
