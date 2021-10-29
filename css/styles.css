@@ -204,10 +204,14 @@ body {
   margin-right: 30px;
 }
 .rows__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
-  padding: 25px 100px;
+  width: 270px;
+  height: 120px;
 }
 .rows__icon {
 
