@@ -115,18 +115,19 @@ body {
 }
 .contacts__item{
 }
-.icon-mail {
-  width: 16px;
-  height: 12px;
+.contacts__icon-mail {
   margin-right: 10px;
+  fill: currentColor;
 }
-.icon-smartphone{
-  width: 10px;
-  height: 16px;
+.contacts__icon-smartphone{
   margin-right: 10px;
+  fill: currentColor;
 }
 .contacts__item:not(:last-child) {
   margin-right: 50px;
+}
+.contacts__link:hover {
+  color: var(--brandColor);
 }
 .contacts__link {
   display: flex;
