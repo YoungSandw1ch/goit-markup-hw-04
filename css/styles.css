@@ -115,11 +115,22 @@ body {
 }
 .contacts__item{
 }
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.icon-smartphone{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
 .contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 .contacts__link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--secondFontColor);
