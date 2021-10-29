@@ -428,22 +428,45 @@ body {
 .footer__logo > span {
   color: var(--lightFontColor);
 }
-.footer__address {
+.address {
 }
-.footer__list {
+.address__list {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.footer__item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer__map {
+.address__map {
   text-decoration: none;
   color: var(--lightFontColor);
 }
-.footer__link {
+.address__link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
-
+/* ------------------------social links block-------------- */
+.footer__box:first-child {
+  margin-right: 70px;
+}
+.footer__box:nth-child(2) {
+  padding-top: 10px;
+}
+.footer__text {
+  line-height: 1.14;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--lightFontColor);
+  margin-bottom: 20px;
+}
+.social-links--position {
+  padding: 0;
+  margin: 0;
+}
+.social-links__link--style {
+  color: var(--nullBg);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
