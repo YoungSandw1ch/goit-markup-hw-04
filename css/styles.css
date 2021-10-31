@@ -292,7 +292,6 @@ body {
   justify-content: center;
 }
 .social-links__item {
-
 }
 .social-links__item:not(:last-child) {
   margin-right: 10px;
